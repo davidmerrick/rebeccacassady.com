@@ -1,16 +1,44 @@
-# Site settings
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
 title: Rebecca Cassady
 url: https://www.rebeccacassady.com
 description: "Coming soon!"
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary-dark: '#000000'
-  links: '#219ab3'
-
-# Footer settings
-footer: Rebecca Cassady
-
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
+theme: minimal-mistakes-jekyll
+
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "UA-8004148-12"
+
+paginate: 10
+
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-gist
+  - jekyll-twitter-plugin
+  - jekyll-paginate
+  - jemoji
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - s3_website.yml
+  - docker-compose.yml
