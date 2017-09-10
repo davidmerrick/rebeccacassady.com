@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 published: true
 ---
+Hi!  I'm Rebecca Cassady.  This is my site. 
 
-I joined Thomas, Coon, Newton & Frost in 2014 after graduating from Portland State with a BA in History.
+![]({{site.baseurl}}/media/goat.jpg)![goat.jpg]({{site.baseurl}}/media/goat.jpg)
 
-I work with the Personal Injury team and enjoy working with my attorneys to represent injured Oregonians in their personal injury claims.
+In my spare time, I'm an avid chef, piano player, hammocker, and backpacker.  I also enjoy traveling, and will be posting a few of my adventures on my blog here.
 
-I also assist with medical negligence, wrongful death, and legal malpractice cases.
